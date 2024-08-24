@@ -3,52 +3,52 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6667689198:AAGljkKbsJh3un6bsFS9qr1NcI5yUzhJ6vE")
 
 # Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "0"))
+APP_ID = int(os.environ.get("APP_ID", "27284732"))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "0")
+API_HASH = os.environ.get("API_HASH", "8d242ebf776e7d3c487b97cf3951cb9c")
 
 # Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002108053748"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "0"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1163318744"))
 
 # Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8141")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "0")
-DB_NAME = os.environ.get("DATABASE_NAME", "0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://naibansari987:Yuuichi@cluster0.o0uekd9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # Force sub channel id, if you want enable force sub
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "0"))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "0"))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1001563375879"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001613294962"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Mainly add graph else telegraph link
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/b1549fd4bc4a2b7dd04aa.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/3ab8716b37894ef7460e9.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/08580b534ac313cc6b379.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/08580b534ac313cc6b379.jpg")
 
 # Add your text according to you
-HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Anime_X_Hunters\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻Developed by <a href=https://t.me/Its_Oreki_Hotarou>Hōᴛᴀʀō Oʀᴇᴋɪ</a></b>"
-ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Its_Oreki_Hotarou>Hōᴛᴀʀō Oʀᴇᴋɪ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Anime_X_Hunters>ᴀɴɪᴍᴇ x ʜᴜɴᴛᴇʀꜱ</a>\n◈ ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Ongoing_Anime_X_Hunter>ᴏɴɢᴏɪɴɢ ʜᴜɴᴛᴇʀꜱ</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Its_Seishiro_Nagi>Sᴇɪꜱʜɪʀᴏ Nᴀɢɪ</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
+HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Animes_VQ\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻Owned By <a href=https://t.me/Yuuich1_Sama>𓆰𝒀𝒖𝒖𝒊𝒄𝒉𝒊~𝑺𝒂𝒎𝒂𓂀</a></b>"
+ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴏᴡɴᴇʀ: <a href=https://t.me/Yuuich1_Sama>𓆰𝒀𝒖𝒖𝒊𝒄𝒉𝒊~𝑺𝒂𝒎𝒂𓂀</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/the_vanquishers>ᴛʜᴇ ᴠᴀɴϙᴜɪsʜᴇʀs</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/animes_vq>ᴀɴɪᴍᴇ ᴜɴɪᴛʏ</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
 
 # start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Anime_X_Hunters</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Animes_VQ</b>")
 try:
     ADMINS=[5090651635]
-    for x in (os.environ.get("ADMINS", "5090651635").split()):
+    for x in (os.environ.get("ADMINS", "6159157391 1733067205 5911422304 2067141797 1163318744 5734659617").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Owner list does not contain valid integers.")
 
 # Force sub message
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}!⚡\n\n🫧ᴘʟᴇᴀꜱᴇ ᴊᴏɪɴ ʙᴏᴛʜ ᴏꜰ ᴏᴜʀ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟꜱ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ...!")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>👋 ʜᴇʟʟᴏ {first}!\nᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs [ ᴛᴀᴘ ᴏɴ ᴊᴏɪɴ ⚡️] ᴛʜᴇɴ\nᴅᴏᴡɴʟᴏᴀᴅ ʙʏ ᴛᴀᴘᴘɪɴɢ ᴏɴ ⚡️ᴛʀʏ ᴀɢᴀɪɴ\nᴛʜᴀɴᴋ ʏᴏᴜ ❤️</b>")
 
 # set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -60,7 +60,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "​🚫Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ​ - @Anime_X_Hunters"
+USER_REPLY_TEXT = "​🚫Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ​ - @Animes_VQ"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(5090651635)
